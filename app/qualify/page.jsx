@@ -18,6 +18,8 @@ const QualifyWebpage = () => {
     <>
       <div className="container">
         <h1>Qualify Page</h1>
+        {/* add line */}
+        <hr></hr>
         <div className="container">
           <p>
             If you are self-employed or own a business, you may qualify to

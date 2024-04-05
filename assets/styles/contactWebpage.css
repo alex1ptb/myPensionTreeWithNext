@@ -1,0 +1,11 @@
+.container {
+  margin-top: 20px;
+  width: 98%;
+  height: 100%;
+}
+
+p {
+  width: 98%;
+  text-align: center;
+  font-size: 1.2rem;
+}
