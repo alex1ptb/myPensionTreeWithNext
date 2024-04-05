@@ -1,4 +1,5 @@
 import "@/assets/styles/globals.css";
+import "materialize-css/dist/css/materialize.min.css";
 
 export const metadata = {
   title: "My Pension Tree",
