@@ -1,6 +1,6 @@
 import "@/assets/styles/globals.css";
 import "materialize-css/dist/css/materialize.min.css";
-
+import Navbar from "@/components/Navbar";
 export const metadata = {
   title: "My Pension Tree",
   description: "Find the perfect pension plan for you",
@@ -10,7 +10,10 @@ export const metadata = {
 const MainLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        <main>{children}</main>
+      </body>
     </html>
   );
 };
