@@ -1,0 +1,15 @@
+footer {
+  /* basic */
+  margin-top: 10px;
+  padding: 20px 0;
+  /* border-top */
+  border-top: 1px solid #e9ecef;
+  /* text */
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  /* position */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
